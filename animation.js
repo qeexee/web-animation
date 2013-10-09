@@ -50,7 +50,6 @@ function random() {
     var ele = document.getElementById(id);
     ele.style.left = Math.random() * xRegion + xOffset + "px";
     ele.style.top = Math.random() * yRegion + yOffset + "px";
-    console.debug(ele.style.left);
   }
 }
 
